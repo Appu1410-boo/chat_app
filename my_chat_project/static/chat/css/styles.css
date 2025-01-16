@@ -1,0 +1,109 @@
+/* General styling for the chat application */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-header {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-messages {
+  padding: 15px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message strong {
+  font-size: 1em;
+  color: #4CAF50;
+}
+
+.message p {
+  margin: 5px 0;
+}
+
+.message small {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.sent {
+  text-align: right;
+}
+
+.received {
+  text-align: left;
+}
+
+/* Chat Input */
+.chat-input {
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.chat-input textarea {
+  width: calc(100% - 90px);
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.chat-input button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.chat-input button:hover {
+  background-color: #45a049;
+}
+
